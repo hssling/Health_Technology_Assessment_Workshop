@@ -1,0 +1,99 @@
+cff-version: 1.2.0
+message: "If you use this workshop materials, please cite it as below."
+type: software
+title: "Health Technology Assessment (HTA) Workshop 2025"
+authors:
+  - family-names: "H S"
+    given-names: "Siddalingaiah"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Department of Community Medicine, Mysore Medical College and Research Institute"
+    role: "resource person, workshop coordinator"
+  - family-names: "NAMSCON"
+    given-names: "National Academy of Medical Sciences"
+    affiliation: "New Delhi, India"
+    role: "academic organizer"
+  - family-names: "MMC&RI"
+    given-names: "Mysore Medical College and Research Institute"
+    affiliation: "Mysore, Karnataka, India"
+    role: "host institution"
+repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
+url: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
+license: MIT
+preferred-citation:
+  type: proceedings
+  title: "Health Technology Assessment Workshop 2025: Educational Resources and Training Materials"
+  dates:
+    presented-date: "February 15-16, 2025"
+  location:
+    name: "Mysore Medical College and Research Institute"
+    city: "Mysore"
+    region: "Karnataka"
+    country: "India"
+  authors:
+    - family-names: "H S"
+      given-names: "Siddalingaiah"
+      affiliation: "Professor, Community Medicine, MMC&RI Mysore"
+    - family-names: "Workshop Participants"
+      given-names: "Postgraduate Residents and Healthcare Professionals"
+  conference:
+    name: "NAMSCON AICTE Educational Workshop Series 2025"
+    city: "Mysore"
+    country: "India"
+    region: "Karnataka"
+    acronym: "NAMSCON-HTA-2025"
+    date-start: 2025-02-15
+    date-end: 2025-02-16
+keywords:
+  - health technology assessment
+  - health economics
+  - evidence-based medicine
+  - healthcare policy
+  - cost-effectiveness analysis
+  - medical education
+  - public health
+  - LMICs healthcare
+references:
+  - type: technical-report
+    title: "Health Technology Assessment: A Comprehensive Training Manual"
+    year: 2025
+    month: 2
+    authors:
+      - family-names: "H S"
+        given-names: "Siddalingaiah"
+    institution:
+      name: "Mysore Medical College"
+      city: "Mysore"
+      region: "Karnataka"
+  - type: data
+    title: "HTA Workshop Assessment Database"
+    year: 2025
+    authors:
+      - family-names: "MMC&RI"
+        given-names: "Workshop Team"
+    repository: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
+    repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop/tree/main/02_Quizzes"
+  - type: software
+    title: "HTA Analytics Dashboard"
+    year: 2025
+    authors:
+      - family-names: "AI Assistant"
+        given-names: "Cline"
+      - family-names: "H S"
+        given-names: "Siddalingaiah"
+    repository: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
+    repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop/tree/main/06_Reports"
+abstract: |
+  Comprehensive educational resources for Health Technology Assessment (HTA) training workshop
+  conducted by NAMSCON and hosted by Mysore Medical College and Research Institute. Includes
+  six detailed lecture modules, interactive assessments, analytical tools, and automated
+  administration systems designed for postgraduate medical education in India. Materials cover
+  foundational concepts, economic evaluation frameworks, resource measurement, health outcome
+  valuation, evidence interpretation, and policy translation in Indian healthcare context.
+
+  The workshop materials include:
+  - 6 comprehensive lecture modules (160+ pages total)
+  - 60 multiple-choice question assessment system
+  - 6 professional presentation decks
+  - 4 educational infographics
+  - Automated registration and analytics systems
+  - Interactive dashboard for real-time monitoring

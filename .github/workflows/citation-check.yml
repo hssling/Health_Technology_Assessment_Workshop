@@ -1,0 +1,133 @@
+name: Citation & Documentation Check
+
+on:
+  push:
+    paths:
+      - 'CITATION.cff'
+      - '.github/workflows/citation-check.yml'
+      - 'CITATION.bib'
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'CITATION.cff'
+      - '.github/workflows/citation-check.yml'
+      - 'CITATION.bib'
+      - 'README.md'
+
+jobs:
+  citation-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install citation dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install cffconvert requests
+
+    - name: Validate CITATION.cff file
+      run: |
+        if [ -f CITATION.cff ]; then
+          echo "Validating CITATION.cff format..."
+          python -c "
+          import yaml
+          import json
+          try:
+              with open('CITATION.cff', 'r', encoding='utf-8') as f:
+                  data = yaml.safe_load(f)
+              print('CFF format is valid')
+
+              # Check for required fields
+              required_fields = ['cff-version', 'title', 'authors', 'repository-code']
+              for field in required_fields:
+                  if field not in data:
+                      print(f'WARNING: Missing required field: {field}')
+                      exit(1)
+              print('All required fields present')
+          except Exception as e:
+              print(f'CITATION.cff validation failed: {e}')
+              exit(1)
+          "
+        fi
+
+    - name: Check CITATION.cff to BibTeX conversion
+      continue-on-error: true
+      run: |
+        if command -v cffconvert &> /dev/null; then
+          echo "Converting CITATION.cff to BibTeX..."
+          cffconvert -f bibtex --no-fail-empty -o CITATION.bib || echo "BibTeX conversion failed (non-critical)"
+        else
+          echo "cffconvert not available, skipping BibTeX conversion"
+        fi
+
+    - name: Check README.md citations and references
+      run: |
+        if [ -f README.md ]; then
+          echo "Checking README.md for proper citation information..."
+
+          # Check for license information
+          if grep -q "MIT License\|GNU\|Apache\|BSD" README.md; then
+            echo "✓ License information found in README"
+          else
+            echo "⚠️  License information not found in README"
+          fi
+
+          # Check for citation instructions
+          if grep -q "cite\|citation\|CITATION.cff" README.md; then
+            echo "✓ Citation information found in README"
+          else
+            echo "⚠️  Citation information not found in README"
+          fi
+
+          # Check for contact information
+          if grep -q "@\|contact\|email" README.md; then
+            echo "✓ Contact information found in README"
+          else
+            echo "⚠️  Contact information not found in README"
+          fi
+        fi
+
+  academics-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Check academic content integrity
+      run: |
+        echo "Checking academic content integrity..."
+
+        # Count lecture files
+        lecture_count=$(find . -name "*.md" -path "./01_Lectures/*" | wc -l)
+        echo "Found $lecture_count lecture modules"
+
+        # Check for required workshop components
+        components=("01_Lectures" "02_Quizzes" "03_Presentations" "04_Infographics" "05_Admin_Forms" "06_Reports")
+
+        for component in "${components[@]}"; do
+          if [ -d "$component" ]; then
+            echo "✓ $component directory found"
+          else
+            echo "✗ Missing $component directory"
+            exit 1
+          fi
+        done
+
+        # Check for workshop metadata
+        if [ -f "06_Reports/workshop_metadata.json" ]; then
+          echo "✓ Workshop metadata found"
+        else
+          echo "✗ Workshop metadata missing"
+          exit 1
+        fi
+
+        echo "Academic content validation complete"
