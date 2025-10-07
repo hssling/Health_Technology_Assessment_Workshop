@@ -1,15 +1,15 @@
 {
-  "title": "HTA Workshop 2025: Health Technology Assessment",
+  "title": "Health Technology Assessment",
   "date": "February 15-16, 2025",
-  "venue": "Mysore Medical College and Research Institute, Mysore",
-  "organizer": "National Academy of Medical Sciences (NAMSCON)",
-  "coordinator": "Department of Community Medicine, MMC&RI Mysore",
+  "venue": "Shridevi Institute of Medical Sciences and Research Hospital, Tumkur",
+  "organizer": "Shridevi Institute of Medical Sciences and Research Hospital",
+  "coordinator": "Department of Community Medicine, Shridevi Institute",
   "resource_person": {
     "name": "Dr Siddalingaiah H S",
     "designation": "Professor",
     "department": "Community Medicine",
-    "institution": "Mysore Medical College and Research Institute",
-    "email": "drshs@mmc.ac.in",
+    "institution": "Shridevi Institute of Medical Sciences and Research Hospital",
+    "email": "drshs@shrideviinstitutes.edu.in",
     "phone": "+91-9845678901"
   },
   "learning_objectives": [
@@ -32,15 +32,15 @@
   "payment_details": "₹2000 for PG Residents, ₹3000 for Faculty",
   "registration_link": "https://forms.gle/hta-workshop-2025",
   "contact_information": [
-    "Dr Siddalingaiah H S: drshs@mmc.ac.in",
+    "Dr Siddalingaiah H S: drshs@shrideviinstitutes.edu.in",
     "+91-9845678901",
-    "Workshop Coordinator: hta2025@mmc.ac.in",
-    "+91-8212412345"
+    "Workshop Coordinator: hta2025@shrideviinstitutes.edu.in",
+    "+91-8136210200"
   ],
   "target_audience": "Postgraduate medical residents, healthcare professionals, and researchers",
   "duration": "2 days",
   "max_participants": 50,
   "prerequisites": "Basic understanding of epidemiology and biostatistics",
-  "certification": "Certificate of participation from NAMSCON and MMC&RI",
-  "accommodation": "Accommodation will be arranged for outstation participants at MMC Guest House"
+  "certification": "Certificate of participation from Shridevi Institute of Medical Sciences and Research Hospital",
+  "accommodation": "Accommodation will be arranged for outstation participants at Shridevi Guest House"
 }

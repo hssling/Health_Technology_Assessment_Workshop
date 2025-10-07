@@ -6,16 +6,12 @@ authors:
   - family-names: "H S"
     given-names: "Siddalingaiah"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "Department of Community Medicine, Mysore Medical College and Research Institute"
+    affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital"
     role: "resource person, workshop coordinator"
-  - family-names: "NAMSCON"
-    given-names: "National Academy of Medical Sciences"
-    affiliation: "New Delhi, India"
-    role: "academic organizer"
-  - family-names: "MMC&RI"
-    given-names: "Mysore Medical College and Research Institute"
-    affiliation: "Mysore, Karnataka, India"
-    role: "host institution"
+  - family-names: "Shridevi Institute"
+    given-names: "of Medical Sciences and Research Hospital"
+    affiliation: "Tumkur, Karnataka, India"
+    role: "academic organizer, host institution"
 repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
 url: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
 license: MIT
@@ -25,22 +21,22 @@ preferred-citation:
   dates:
     presented-date: "February 15-16, 2025"
   location:
-    name: "Mysore Medical College and Research Institute"
-    city: "Mysore"
+    name: "Shridevi Institute of Medical Sciences and Research Hospital"
+    city: "Tumkur"
     region: "Karnataka"
     country: "India"
   authors:
     - family-names: "H S"
       given-names: "Siddalingaiah"
-      affiliation: "Professor, Community Medicine, MMC&RI Mysore"
+      affiliation: "Professor, Community Medicine, Shridevi Institute Tumkur"
     - family-names: "Workshop Participants"
       given-names: "Postgraduate Residents and Healthcare Professionals"
   conference:
-    name: "NAMSCON AICTE Educational Workshop Series 2025"
-    city: "Mysore"
+    name: "Shridevi Institute Medical Education Workshop Series 2025"
+    city: "Tumkur"
     country: "India"
     region: "Karnataka"
-    acronym: "NAMSCON-HTA-2025"
+    acronym: "SHRIDEVI-HTA-2025"
     date-start: 2025-02-15
     date-end: 2025-02-16
 keywords:
@@ -61,14 +57,14 @@ references:
       - family-names: "H S"
         given-names: "Siddalingaiah"
     institution:
-      name: "Mysore Medical College"
-      city: "Mysore"
+      name: "Shridevi Institute of Medical Sciences and Research Hospital"
+      city: "Tumkur"
       region: "Karnataka"
   - type: data
     title: "HTA Workshop Assessment Database"
     year: 2025
     authors:
-      - family-names: "MMC&RI"
+      - family-names: "Shridevi Institute"
         given-names: "Workshop Team"
     repository: "https://github.com/hssling/Health_Technology_Assessment_Workshop"
     repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop/tree/main/02_Quizzes"
@@ -84,7 +80,7 @@ references:
     repository-code: "https://github.com/hssling/Health_Technology_Assessment_Workshop/tree/main/06_Reports"
 abstract: |
   Comprehensive educational resources for Health Technology Assessment (HTA) training workshop
-  conducted by NAMSCON and hosted by Mysore Medical College and Research Institute. Includes
+  conducted by Shridevi Institute of Medical Sciences and Research Hospital. Includes
   six detailed lecture modules, interactive assessments, analytical tools, and automated
   administration systems designed for postgraduate medical education in India. Materials cover
   foundational concepts, economic evaluation frameworks, resource measurement, health outcome

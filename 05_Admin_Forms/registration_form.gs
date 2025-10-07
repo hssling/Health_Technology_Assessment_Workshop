@@ -6,14 +6,14 @@
 function createRegistrationForm() {
   try {
     // Configuration
-    const FORM_TITLE = 'HTA Workshop 2025 Registration - MMC&RI Mysore';
-    const FORM_DESCRIPTION = `🩺 NAMSCON & MMC&RI Present
+    const FORM_TITLE = 'Health Technology Assessment Workshop Registration - Shridevi Institute';
+    const FORM_DESCRIPTION = `🩺 Shridevi Institute Presents
 
-**Health Technology Assessment Workshop 2025**
+**Health Technology Assessment**
 *Bringing Evidence-Based Healthcare to Practice*
 
 📅 **Date:** February 15-16, 2025
-📍 **Venue:** Mysore Medical College and Research Institute, Mysore
+📍 **Venue:** Shridevi Institute of Medical Sciences and Research Hospital, Tumkur
 🎯 **Target:** Postgraduate medical residents, healthcare professionals, researchers
 👨‍🏫 **Resource Person:** Dr Siddalingaiah H S, Professor, Community Medicine
 
@@ -28,9 +28,9 @@ function createRegistrationForm() {
 • All meals and workshop materials included
 
 **For any queries:**
-📧 Dr Siddalingaiah H S: drshs@mmc.ac.in
-📧 Workshop Coordinator: hta2025@mmc.ac.in
-📱 +91-9845678901 / +91-8212412345`;
+📧 Dr Siddalingaiah H S: drshs@shrideviinstitutes.edu.in
+📧 Workshop Coordinator: hta2025@shrideviinstitutes.edu.in
+📱 +91-9845678901 / +91-8136210200`;
 
     // Create new Google Form
     const form = FormApp.create(FORM_TITLE);
@@ -48,7 +48,7 @@ function createRegistrationForm() {
       'You will receive a confirmation email with payment instructions and your QR code within 24 hours.\n\n' +
       '📧 Check your email for next steps\n' +
       '💳 Complete payment to confirm your seat\n\n' +
-      'For queries: hta2025@mmc.ac.in | +91-8212412345\n\n' +
+      'For queries: hta2025@shrideviinstitutes.edu.in | +91-8136210200\n\n' +
       'We look forward to welcoming you to the HTA Workshop 2025!'
     );
 
@@ -399,19 +399,19 @@ function createConfirmationEmailHTML(data, qrCodeUrl) {
     <body>
         <div class="header">
             <h1>🎉 Registration Confirmed!</h1>
-            <h2>Health Technology Assessment Workshop 2025</h2>
-            <p>M M C & R I • M Y S O R E</p>
+            <h2>Health Technology Assessment</h2>
+            <p>S H R I D E V I  I N S T I T U T E • T U M K U R</p>
         </div>
 
         <div class="content">
             <p>Dear <strong>${data.name}</strong>,</p>
 
-            <p>Congratulations! Your registration for the <strong class="highlight">HTA Workshop 2025</strong> has been successfully confirmed.</p>
+            <p>Congratulations! Your registration for the <strong class="highlight">Health Technology Assessment Workshop</strong> has been successfully confirmed.</p>
 
             <h3>📅 Workshop Details</h3>
             <ul>
                 <li><strong>Date:</strong> February 15-16, 2025</li>
-                <li><strong>Venue:</strong> MMC&RI, Mysore</li>
+                <li><strong>Venue:</strong> Shridevi Institute of Medical Sciences and Research Hospital, Tumkur</li>
                 <li><strong>Timings:</strong> 9:00 AM - 5:00 PM both days</li>
                 <li><strong>Payment Amount:</strong> ₹${data.amount}</li>
                 <li><strong>Reference ID:</strong> ${data.reference}</li>
@@ -448,24 +448,24 @@ function createConfirmationEmailHTML(data, qrCodeUrl) {
                 <h3>📞 Contact Information</h3>
                 <p><strong>Resource Person:</strong> Dr Siddalingaiah H S</p>
                 <p><strong>Professor, Community Medicine</strong></p>
-                <p><strong>Email:</strong> drshs@mmc.ac.in</p>
+                <p><strong>Email:</strong> drshs@shrideviinstitutes.edu.in</p>
                 <p><strong>Phone:</strong> +91-9845678901</p>
                 <hr>
                 <p><strong>Workshop Coordinator:</strong></p>
-                <p><strong>Email:</strong> hta2025@mmc.ac.in</p>
-                <p><strong>Phone:</strong> +91-8212412345</p>
+                <p><strong>Email:</strong> hta2025@shrideviinstitutes.edu.in</p>
+                <p><strong>Phone:</strong> +91-8136210200</p>
             </div>
 
             <p>We look forward to welcoming you to what promises to be an engaging and insightful learning experience!</p>
 
             <p>Best regards,<br>
-            <strong>HTA Workshop 2025 Organizing Team</strong><br>
-            MMC&RI & NAMSCON</p>
+            <strong>Health Technology Assessment Organizing Team</strong><br>
+            Shridevi Institute of Medical Sciences and Research Hospital</p>
         </div>
 
         <div class="footer">
             <p><strong>Note:</strong> This is an automated confirmation email. Please do not reply to this message. For any queries, use the contact details provided above.</p>
-            <p>&copy; 2025 MMC&RI & NAMSCON. All rights reserved.</p>
+            <p>&copy; 2025 Shridevi Institute of Medical Sciences and Research Hospital. All rights reserved.</p>
         </div>
     </body>
     </html>

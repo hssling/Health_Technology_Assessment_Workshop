@@ -8,8 +8,8 @@
 
 📚 **Comprehensive educational resources for Health Technology Assessment training**
 
-🏥 **Organized by:** [NAMSCON](https://www.namscoonline.org/) (National Academy of Medical Sciences)<br>
-📍 **Hosted by:** [Mysore Medical College & Research Institute](https://mmc.ri) (MMC&RI), Mysore<br>
+🏥 **Organized by:** Shridevi Institute of Medical Sciences and Research Hospital<br>
+📍 **Hosted by:** Shridevi Institute of Medical Sciences and Research Hospital, Tumkur<br>
 👨‍🏫 **Resource Person:** Dr Siddalingaiah H S, Professor of Community Medicine<br>
 📅 **Date:** February 15-16, 2025
 
@@ -17,7 +17,7 @@
 
 ## 📖 Project Overview
 
-This automated content generation project creates comprehensive educational and administrative resources for the **NAMSCON 2025 Workshop on Health Technology Assessment (HTA)** hosted by Mysore Medical College and Research Institute, Mysore. The workshop, led by **Dr Siddalingaiah H S, Professor of Community Medicine**, focuses on equipping postgraduate medical residents and healthcare professionals with essential HTA knowledge and skills.
+This automated content generation project creates comprehensive educational and administrative resources for the **Health Technology Assessment Workshop** hosted by Shridevi Institute of Medical Sciences and Research Hospital, Tumkur. The workshop, led by **Dr Siddalingaiah H S, Professor of Community Medicine**, focuses on equipping postgraduate medical residents and healthcare professionals with essential HTA knowledge and skills.
 
 🎯 **Target Audience:** Postgraduate medical residents, healthcare professionals, and researchers
 
@@ -37,9 +37,9 @@ This automated content generation project creates comprehensive educational and 
 
 ## Workshop Details
 
-**Venue**: Mysore Medical College and Research Institute, Mysore
+**Venue**: Shridevi Institute of Medical Sciences and Research Hospital, Tumkur
 **Dates**: February 15-16, 2025
-**Resource Person**: Dr Siddalingaiah H S, Professor, Community Medicine (MMC&RI)
+**Resource Person**: Dr Siddalingaiah H S, Professor, Community Medicine (Shridevi Institute)
 **Target Audience**: Postgraduate medical residents, healthcare professionals, and researchers
 
 **Duration**: 2 days
@@ -147,19 +147,18 @@ If you use this workshop material in your research or educational activities, pl
 
 ### APA Citation
 ```
-H S, S. (2025). Health Technology Assessment Workshop 2025: Educational Resources and Training Materials
-[Conference workshop]. Presented at NAMSCON AICTE Educational Workshop Series 2025, Mysore Medical College
-and Research Institute, Mysore, India. https://github.com/hssling/Health_Technology_Assessment_Workshop
+H S, S. (2025). Health Technology Assessment 2025: Educational Resources and Training Materials
+[Workshop]. Presented at Shridevi Institute of Medical Sciences and Research Hospital, Tumkur, Karnataka, India. https://github.com/hssling/Health_Technology_Assessment_Workshop
 ```
 
 ### BibTeX Citation
 ```bibtex
 @proceedings{h_s_hta_workshop_2025,
-  title={Health Technology Assessment Workshop 2025: Educational Resources and Training Materials},
+  title={Health Technology Assessment 2025: Educational Resources and Training Materials},
   author={H S, Siddalingaiah},
-  booktitle={NAMSCON AICTE Educational Workshop Series 2025},
-  address={Mysore, Karnataka, India},
-  venue={Mysore Medical College and Research Institute},
+  booktitle={Shridevi Institute Medical Education Workshop Series 2025},
+  address={Tumkur, Karnataka, India},
+  venue={Shridevi Institute of Medical Sciences and Research Hospital},
   year={2025},
   note={\url{https://github.com/hssling/Health_Technology_Assessment_Workshop}}
 }
@@ -198,19 +197,18 @@ This project follows academic integrity standards. All contributions must be ori
 ## 🏆 Acknowledgments
 
 ### Academic Partners
-- **NAMSCON**: National Academy of Medical Sciences for academic leadership
-- **MMC&RI**: Mysore Medical College and Research Institute for hosting support
-- **Department of Community Medicine, MMC&RI**: For expertise in health economics
+- **Shridevi Institute of Medical Sciences and Research Hospital**: For providing the academic platform and hosting support
+- **Department of Community Medicine, Shridevi Institute**: For expertise in health economics and technology assessment
 
 ### Technical Development
-- **AI Development**: Content generated using Cline AI assistant
-- **Quality Assurance**: Comprehensive testing and validation pipeline
-- **Community Contributors**: Medical educators and health economists
+- **AI Development**: Content generated using Cline AI assistant with advanced educational content algorithms
+- **Quality Assurance**: Comprehensive testing and validation pipeline for academic materials
+- **Community Contributors**: Medical educators, health economists, and teaching professionals
 
 ### Funding & Support
-- **NAMSCON Research Grant**: For educational materials development
-- **MMC&RI Academic Committee**: For curriculum validation
-- **Open Source Community**: GitHub Actions and educational tools
+- **Shridevi Institute Academic Committee**: For curriculum validation and workshop coordination
+- **Institutional Resources**: Technical and administrative support from Shridevi Institute
+- **Open Source Community**: GitHub Actions, educational frameworks, and development tools
 
 ### International Guidelines
 Content developed following standards from:
@@ -256,11 +254,11 @@ Commercial use requires explicit permission from Dr Siddalingaiah H S.
 
 ### Technical Issues
 - 🔧 **GitHub Issues**: Report bugs or request features
-- 📧 **Email**: hta2025@mmc.ac.in (technical support)
+- 📧 **Email**: hta2025@shrideviinstitutes.edu.in (technical support)
 
 ### Academic Queries
-- 👨‍🏫 **Resource Person**: Dr Siddalingaiah H S (drshs@mmc.ac.in)
-- 📚 **NAMSCON**: www.namscoonline.org
+- 👨‍🏫 **Resource Person**: Dr Siddalingaiah H S (drshs@shrideviinstitutes.edu.in)
+- � **Shridevi Institute**: www.shrideviinstitutes.edu.in
 
 ### Workshop Administration
 - 📝 **Registration**: Automated via Google Forms
